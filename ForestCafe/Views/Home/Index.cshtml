@@ -1,0 +1,197 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Hero -->
+<section class="hero" id="top">
+    <div class="hero-bg" style="background-image: url('@Url.Content("~/images/15.jpeg")');"></div>
+    <div class="hero-scrim"></div>
+    <svg class="hero-roots" viewBox="0 0 1200 140" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,0 Q40,90 60,140 M120,0 Q140,70 130,140 M220,0 Q200,80 210,140 M340,0 Q360,60 350,140 M420,0 Q440,100 430,140 M540,0 Q520,70 530,140 M640,0 Q660,90 650,140 M760,0 Q740,60 750,140 M860,0 Q880,100 870,140 M980,0 Q960,70 970,140 M1080,0 Q1100,90 1090,140 M1160,0 Q1170,60 1160,140" />
+    </svg>
+    <div class="hero-inner">
+        <p class="hero-eyebrow">Kalvarayan Hill &middot; Salem &middot; Est. 2021</p>
+        <h1 class="hero-headline">The Forest<br>Cafe</h1>
+        <p class="hero-script">love is in the air</p>
+        <p class="hero-sub">
+            A small cafe on the hill, built around a banyan tree that was here long
+            before we were — filter coffee, cake, and a lot of green in every direction.
+        </p>
+        <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">See the menu</a>
+            <a href="https://maps.app.goo.gl/CGQGWiRbUintn9ci9" target="_blank" rel="noopener" class="btn btn-ghost">Get directions</a>
+        </div>
+    </div>
+</section>
+
+<!-- Stat strip -->
+<section class="stat-strip">
+    <div class="stat-strip-inner">
+        <div class="stat"><span class="stat-num">4.8<span class="stat-unit">/5</span></span><span class="stat-label">rated by 170+ visitors</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">9–7</span><span class="stat-label">open daily, 9am to 7pm</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2021</span><span class="stat-label">est. on the hill</span></div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about">
+    <div class="about-inner">
+        <div class="about-image">
+            <img src="~/images/6.jpeg" alt="Buddha mural nook under the banyan tree at The Forest Cafe">
+        </div>
+        <div class="about-copy">
+            <p class="section-eyebrow">The Cafe</p>
+            <h2 class="section-title">Built around what<br>was already here</h2>
+            <p class="about-text">
+                The banyan tree in the courtyard came first — its roots still hang
+                low over the tables, and the seating was built around it rather
+                than the other way round. Old tyres became stools, glass bottles
+                became a chime wall, broken tile became the path underfoot.
+            </p>
+            <p class="about-text">
+                Visitors regularly mention the setting and the hospitality first,
+                the coffee and cake second — though the filter coffee and the
+                honey are both worth the trip up the hill on their own.
+            </p>
+        </div>
+    </div>
+</section>
+
+<svg class="section-roots" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M20,0 Q40,50 30,90 M160,0 Q180,40 170,90 M300,0 Q280,55 290,90 M440,0 Q460,35 450,90 M580,0 Q560,50 570,90 M720,0 Q740,40 730,90 M860,0 Q840,55 850,90 M1000,0 Q1020,35 1010,90 M1140,0 Q1150,50 1140,90" />
+</svg>
+
+<!-- Menu -->
+<section class="menu" id="menu">
+    <div class="section-head">
+        <p class="section-eyebrow">On The Board</p>
+        <h2 class="section-title">Menu</h2>
+        <p class="section-note">What's chalked up at the counter today.</p>
+    </div>
+
+    <div class="menu-columns">
+        <div class="menu-col">
+            <h3 class="menu-col-title">Cake</h3>
+            <ul class="menu-list">
+                <li>Chocolate</li>
+                <li>Lemon</li>
+                <li>Coffee</li>
+                <li>Brownie</li>
+            </ul>
+        </div>
+        <div class="menu-col">
+            <h3 class="menu-col-title">Coffee</h3>
+            <ul class="menu-list">
+                <li>Filter Coffee</li>
+                <li>Cappuccino</li>
+                <li>Dalgona Coffee</li>
+            </ul>
+        </div>
+        <div class="menu-col">
+            <h3 class="menu-col-title">Shake</h3>
+            <ul class="menu-list">
+                <li>Cold Coffee</li>
+                <li>Banana</li>
+                <li>Rose Milk</li>
+                <li>Badam</li>
+            </ul>
+        </div>
+        <div class="menu-col">
+            <h3 class="menu-col-title">Cookies <span class="tag">Homemade</span></h3>
+            <ul class="menu-list">
+                <li>Butter</li>
+                <li>Chocolate</li>
+                <li>Ragi</li>
+                <li>Health Mix</li>
+            </ul>
+        </div>
+        <div class="menu-col">
+            <h3 class="menu-col-title">Brunch</h3>
+            <ul class="menu-list">
+                <li>Chicken Roll</li>
+                <li>Paneer Roll</li>
+                <li>Bread Omelette</li>
+            </ul>
+        </div>
+        <div class="menu-col">
+            <h3 class="menu-col-title">Sweets</h3>
+            <ul class="menu-list">
+                <li>Carrot Halwa</li>
+                <li>Beetroot Halwa</li>
+                <li>Pumpkin Halwa</li>
+            </ul>
+            <p class="menu-col-note">any one, made fresh</p>
+        </div>
+    </div>
+
+    <div class="menu-footer">
+        <p class="menu-footer-title">Farm Fresh</p>
+        <p class="menu-footer-text">Fruits &amp; veggies, and honey — grown and gathered on the hill, sold at the counter.</p>
+    </div>
+</section>
+
+<svg class="section-roots section-roots-light" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M60,0 Q80,50 70,90 M200,0 Q220,40 210,90 M340,0 Q320,55 330,90 M480,0 Q500,35 490,90 M620,0 Q600,50 610,90 M760,0 Q780,40 770,90 M900,0 Q880,55 890,90 M1040,0 Q1060,35 1050,90 M1160,0 Q1170,50 1160,90" />
+</svg>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+    <div class="section-head">
+        <p class="section-eyebrow" style="color: var(--amber);">On The Hill</p>
+        <h2 class="section-title" style="color: var(--cream);">Around the Cafe</h2>
+    </div>
+    <div class="gallery-grid">
+        <div class="gallery-item span-2"><img src="~/images/1.jpg" alt="Garden seating under the banyan tree, umbrellas and a mosaic path"></div>
+        <div class="gallery-item"><img src="~/images/11.jpeg" alt="Upcycled tyre stools around a scrap-metal table"></div>
+        <div class="gallery-item"><img src="~/images/12.jpeg" alt="Herringbone brick patio seating under an orange umbrella"></div>
+        <div class="gallery-item"><img src="~/images/17.jpeg" alt="Stone bridge over a small pond in the courtyard"></div>
+        <div class="gallery-item span-2"><img src="~/images/14.jpeg" alt="The Forest Cafe lit up at dusk under the banyan tree"></div>
+        <div class="gallery-item"><img src="~/images/16.jpeg" alt="A small shelf with a fish tank, books, and plants for sale"></div>
+        <div class="gallery-item"><img src="~/images/9.jpeg" alt="Grilled sandwich and a glass of coffee served on the patio"></div>
+        <div class="gallery-item"><img src="~/images/8.jpeg" alt="Grilled sandwich and a glass of coffee served on the patio"></div>
+
+        <div class="gallery-item span-2"><img src="~/images/2.jpg" alt="The Forest Cafe lit up at dusk under the banyan tree"></div>
+    </div>
+</section>
+
+<!-- Reviews -->
+<section class="reviews" id="reviews">
+    <div class="section-head">
+        <p class="section-eyebrow">Word On The Hill</p>
+        <h2 class="section-title">What Visitors Say</h2>
+    </div>
+    <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-quote">
+            Visitors consistently call out the ambiance and setting as the standout —
+            the tree, the murals, and the upcycled decor come up again and again. The
+            staff are described as warm and attentive, and the filter coffee, cakes,
+            and sandwiches are a regular highlight. A few note the menu stays fairly
+            small, so it rewards going back to try what wasn't on the board last time.
+        </p>
+        <p class="review-attribution">4.8 out of 5 &middot; 170+ ratings on Justdial</p>
+    </div>
+</section>
+
+<svg class="section-roots" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M20,0 Q40,50 30,90 M160,0 Q180,40 170,90 M300,0 Q280,55 290,90 M440,0 Q460,35 450,90 M580,0 Q560,50 570,90 M720,0 Q740,40 730,90 M860,0 Q840,55 850,90 M1000,0 Q1020,35 1010,90 M1140,0 Q1150,50 1140,90" />
+</svg>
+
+<!-- Visit -->
+<section class="visit" id="visit">
+    <div class="visit-inner">
+        <div class="visit-block">
+            <p class="section-eyebrow">Find Us</p>
+            <h2 class="section-title visit-title">Kalvarayan Hill<br>Salem</h2>
+            <p class="visit-text">Vellimalai Road, Chinnakalrayan hills vadakkunadu,<br>Salem – 636138, Tamil Nadu</p>
+            <a class="btn btn-primary" href="https://maps.app.goo.gl/CGQGWiRbUintn9ci9" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+        <div class="visit-block">
+            <p class="section-eyebrow">Hours</p>
+            <div class="hours-row"><span>Every day</span><span>9:00 AM – 7:00 PM</span></div>
+            <p class="visit-note">The road up the hill is steep in places — worth checking the weather before you go, especially in the rainy season.</p>
+        </div>
+    </div>
+</section>
